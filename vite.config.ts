@@ -5,8 +5,8 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  // برای GitHub Pages: نام ریپازیتوری را اینجا بگذارید
-  base: mode === "production" ? "/your-perfect-page-ui-main/" : "/",
+  // برای GitHub Pages: نام ریپازیتوری
+  base: mode === "production" ? "/contract-management/" : "/",
   server: {
     host: "::",
     port: 8080,
